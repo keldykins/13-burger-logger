@@ -5,11 +5,10 @@ USE burgerloggerDB;
 
 CREATE TABLE everyburger
 (
-	id int NOT NULL
-	AUTO_INCREMENT,
-	name varchar
-	(150) NOT NULL,
+	id INT AUTO_INCREMENT NOT NULL,
+	name varchar (150) NOT NULL,
 	devoured boolean NOT NULL DEFAULT FALSE,
+	createdAt TIMESTAMP NOT NULL,
 	PRIMARY KEY
-	(id)
+(id)
 );
