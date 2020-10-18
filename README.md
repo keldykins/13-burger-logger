@@ -4,6 +4,10 @@
 
 Burger Logger is a Template Engine using MySQL, Node, Express, Handlebars, Bootstrap and a homemade ORM.
 
+## Deployed
+
+Will update with Heroku link once app is successfully deployed.
+
 ## Installation
 
 Open Burger Logger folder in terminal and install using `npm install`
